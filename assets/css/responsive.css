@@ -1,0 +1,19 @@
+@media (min-width: 401px) and (max-width: 740px) {
+    .wins img,#tool img{
+        height: auto;
+        width: 90%;
+    }
+    .sidebar-list {
+        font-size: 14px;
+    }
+}
+@media  (max-width: 400px) {
+    .sidebar-list {
+        font-size: 10px;
+    }
+    .wins img,#tool img{
+        height: auto;
+        width: 90%;
+    }
+
+}

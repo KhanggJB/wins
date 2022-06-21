@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+   
+}
+html {
+    color: white;
+    font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+    height: 100%;
+    background-color: 
+    
+#D3D9E9;
+}
+
+/* Common */
+.mgtb-48px {
+    margin: 48px 0;
+}
+.mglr-8px {
+    margin: 0 8px;
+}
+.mglr-16px {
+    margin: 0 16px;
+}
+/* ENd Common */
+.bg {
+    background: url('../img/bg.jpg') top center / cover no-repeat;
+    
+}
+/* Begin Sidebar */
+#main .sidebar {
+    height: 46px;
+   
+}
+#main .contact {
+    display: flex;
+    justify-content: space-between;
+    margin: 0 32px;
+}
+#main .contact a {
+    text-decoration: none;
+    color: white;
+    line-height: 46px;
+    
+}
+#main .siderbar-items {
+    margin: 0 8px;
+}
+/* End Sidebar */
+/* Begin menu */
+#main .nav {
+    display: flex;
+    justify-content: space-around;
+    height: 92px;
+    line-height: 92px;
+   
+}
+#main .nav li {
+    display: inline-block;
+    margin: 0 8px;
+    text-decoration: none;
+    color: white;
+}
+#main .nav li a {
+    text-decoration: none;
+    
+} 
+#main .nav li:hover,#main .sidebar .siderbar-items:hover a,#main .sidebar .siderbar-items:hover  {
+    color: red;
+}
+/* End menu */
+/* Begin about */
+#content #about {
+    text-align: center;
+    margin: 200px 20% 0 20%;
+    min-height: 400px;
+    text-shadow: 2px 0px #000;
+}
+/* end about */
+/* Begin windows */
+#windows {
+    text-align: center;
+    margin: 48px 0;
+}
+.wins {
+   color: black;
+   margin: 32px 0;
+}
+.wins-list {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+.wins img {
+    height: 400px;
+    width: 640px;
+}
+/* End windows */
+/* Begin Tool */
+#tool {
+    color: black;
+    padding-bottom: 46px;
+  
+}
+#tool h1 {
+    text-align: center;
+}
+#tool .tool-list {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+#tool .tool-items {
+   
+   text-align: center;
+ 
+}
+#tool img {
+    height: 400px;
+    width: 640px;
+}
+
+/* End tool */
+/* Footer */
+#footer  {
+    background: #796EA8;
+  text-align: center;
+  color: #fff;
+  padding: 1rem;
+  flex-shrink: 0;
+   
+}
+#footer h2 {
+    text-align: center;
+}
+#footer .donate {
+    display: flex;
+    justify-content: space-around;
+}
+#footer img {
+    height: 60px;
+}
+/*End footer */
